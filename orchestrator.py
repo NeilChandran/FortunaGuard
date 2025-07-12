@@ -76,4 +76,3 @@ class Orchestrator:
         self.visualizer.plot(self.simulation_results, self.risks)
         self.reporter.generate(self.simulation_results, self.risks, self.stress_results)
         print("Report generated: report.txt")
-
